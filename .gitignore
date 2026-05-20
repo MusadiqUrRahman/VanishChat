@@ -1,0 +1,10 @@
+node_modules
+dist
+.claude
+.mcp.json
+issues
+.env.local
+.env.*.local
+*.md
+ABOUT.txt
+.env.example
