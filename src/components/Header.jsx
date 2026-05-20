@@ -17,7 +17,7 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 inset-x-0 z-50 transition-all duration-300" style={{ backdropFilter: scrolled ? 'blur(12px)' : 'blur(0px)' }}>
-      <div className="absolute inset-0 transition-all duration-300" style={{ background: scrolled ? 'var(--color-surface)/80' : 'var(--color-surface)/0', borderBottom: scrolled ? '1px solid var(--color-border)' : '1px solid transparent' }} />
+      <div className="absolute inset-0 transition-all duration-300" style={{ background: scrolled ? 'color-mix(in srgb, var(--color-surface) 80%, transparent)' : 'transparent', borderBottom: scrolled ? '1px solid var(--color-border)' : '1px solid transparent' }} />
       <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[var(--accent)]/15 to-transparent" />
 
       <nav className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
